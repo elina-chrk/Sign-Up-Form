@@ -1,0 +1,98 @@
+* {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+body {
+	font-family: monospace;
+	margin-block-start: 65px;
+}
+h1 {
+	font-size: 25px;
+}
+hr {
+	border-bottom: 234px;
+	color: rgba(120, 109, 109, 0.607);
+}
+.btn-group button, .btn-signUp {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	color: white;
+	padding: 15px 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	width: 190px;
+	border-width: 0;
+}
+/* 
+.btn-group button:first-child {
+    background-color: #16448f; 
+    margin-right: 5px;
+} */
+
+/* 
+.btn-group button:last-child {
+    background-color: #c8631b;
+    margin-left: 5px;
+} */
+button.left {
+	background-color: #16448f;
+}
+button.right {
+	background-color: #c8631b;
+}
+
+hr.bottomLine {
+	max-width: 190px;
+	width: 30vw;
+	display: inline-block;
+	margin: 4px;
+}
+
+.Or {
+	display: inline;
+	font-size: 14px;
+	font-family: monospace;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="tel"] {
+	width: 190px;
+	height: 30px;
+}
+
+.inputForm {
+	display: inline-block;
+	margin: 5px 0;
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leftAlign {
+	text-align: left;
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0.518);
+}
+
+.agreement {
+	margin-top: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+}
+
+.agreement > p {	
+	display: inline;
+}
+
+p > a {
+	color: black;
+	font-weight: bolder;
+}
+
+.btn-signUp {
+	background-color: rgba(94, 90, 88, 0.767);
+	width: 70vw;
+	max-width: 420px;
+}
